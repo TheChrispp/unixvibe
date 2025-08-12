@@ -184,3 +184,5 @@ In future versions there will be no need to follow a rice structure (you will be
 
 ---
 ✅ Tested on Hyprland + Arch
+
+**Feedback: unixvibefb@gmail.com**
