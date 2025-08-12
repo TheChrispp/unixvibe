@@ -186,7 +186,7 @@ In future versions there will be no need to follow a rice structure (you will be
 
 **Feedback: unixvibefb@gmail.com**
 
-
+----
 The application also collects basic analytics (user-by-country statistics, etc.) using Firebase Analytics. By installing it, you agree to this; I’ll add it to install.sh later.
 
 ----
