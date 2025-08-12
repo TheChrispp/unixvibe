@@ -186,3 +186,7 @@ In future versions there will be no need to follow a rice structure (you will be
 ✅ Tested on Hyprland + Arch
 
 **Feedback: unixvibefb@gmail.com**
+
+----
+*borrowing resources*:
+distro-icons: https://www.reddit.com/r/linux/comments/nt1tm9/i_made_a_uniform_icon_set_of_linux_distribution/
