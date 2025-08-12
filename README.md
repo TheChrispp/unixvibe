@@ -17,9 +17,9 @@
 
 **A dynamic interface layer — a new abstraction above the desktop environment that lets you control the environment at multiple levels and transform it instantly.**
 
-<img width="1682" height="1398" alt="image" src="https://github.com/user-attachments/assets/4cf0f645-6f5c-4db9-9ab8-2c8e3aef5bac" />
-
----
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dd1eea1b-5c52-4c5c-afd2-fa00be3e1257" width="800" alt="image">
+</p>
 
 ## Installation 📦
 
