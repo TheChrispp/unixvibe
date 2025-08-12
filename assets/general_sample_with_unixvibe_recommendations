@@ -1,0 +1,203 @@
+## UNIXVIBE RECOMMENDATIONS
+
+# Hide the theme-switch terminal window
+windowrulev2 = opacity 0.0,class:^(unixvibehidden)$       # Make window completely transparent
+windowrulev2 = nofocus,class:^(unixvibehidden)$            # Disable focus on this window
+windowrulev2 = noanim,class:^(unixvibehidden)$             # Disable animations
+windowrulev2 = noblur,class:^(unixvibehidden)$             # Disable blur effect
+windowrulev2 = noinitialfocus,class:^(unixvibehidden)$     # Do not focus the window initially
+windowrulev2 = minsize 1 1,class:^(unixvibehidden)$        # Minimize the window size
+windowrulev2 = maxsize 1 1,class:^(unixvibehidden)$        # Maximize the window size
+windowrulev2 = float,class:^(unixvibehidden)$              # Make the window float
+windowrulev2 = workspace special silent,class:^(unixvibehidden)$ # Place window on special workspace without sound
+
+# Open the unixvibe-themes popup
+bind = SUPER, F12, exec, unixvibe ui                        # Bind F12 to open themes popup
+
+# Recommended popular startup parameters
+input {
+    kb_layout = us, ru, es                                  # Set keyboard layouts (US, Russian, Spanish)
+    kb_options = grp:alt_shift_toggle                       # Toggle layouts with Alt+Shift
+
+    touchpad {
+        natural_scroll = yes                                # Enable natural scrolling
+    }
+
+    bind = SUPER, Return, exec, kitty                       # Launch terminal
+    bind = SUPER, E, exec, thunar                           # Launch file manager
+
+    bind = SUPER, 1, workspace, 1                           # Switch to workspace 1
+    bind = SUPER, 2, workspace, 2                           # Switch to workspace 2
+    bind = SUPER, 3, workspace, 3                           # Switch to workspace 3
+    bind = SUPER, 4, workspace, 4                           # Switch to workspace 4
+    bind = SUPER, 5, workspace, 5                           # Switch to workspace 5
+
+    bind = SUPER SHIFT, 1, movetoworkspace, 1               # Move window to workspace 1
+    bind = SUPER SHIFT, 2, movetoworkspace, 2               # Move window to workspace 2
+
+    bind = SUPER, Tab, cyclenext                            # Next window
+    bind = SUPER SHIFT, Tab, cyclenext, prev                # Previous window
+}
+
+gestures {
+    workspace_swipe = true                                  # Enable workspace swipe
+    workspace_swipe_fingers = 3                             # 3 finger swipe
+}
+
+##########
+
+################
+### MONITORS ###
+################
+
+monitor = ,preferred,auto,1
+monitor = HDMI-A-2,1920x1080,auto,1
+
+#################
+### AUTOSTART ###
+#################
+
+exec-once = hyprpaper
+exec-once = eww open side-bar
+exec-once = dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+exec-once = hypridle
+
+#############################
+## ENVIRONMENT VARIABLES ###
+#############################
+
+env = XCURSOR_SIZE,24
+env = XCURSOR_THEME,MokouX
+env = HYPRCURSOR_SIZE,48
+env = HYPRCURSOR_THEME,Mokou
+env = XDG_CURRENT_DESKTOP,Hyprland
+env = XDG_SESSION_DESKTOP,Hyprland
+
+#####################
+### LOOK AND FEEL ###
+#####################
+
+general {
+    gaps_in = 5
+    gaps_out = 8
+
+    border_size = 0
+
+    col.active_border = rgba(33ccffee)
+    col.inactive_border = rgba(595959aa)
+
+    resize_on_border = false
+    allow_tearing = false
+
+    layout = dwindle
+}
+
+###################
+### DECORATION ###
+###################
+
+decoration {
+    rounding = 14
+
+    active_opacity = 1.0
+    inactive_opacity = 0.95
+
+    blur {
+        enabled = true
+        vibrancy = 0.8
+        contrast = 0.6
+        size = 10
+        passes = 2
+        ignore_opacity = true
+    }
+
+    shadow {
+        enabled = false
+        sharp = false
+    }
+}
+
+##################
+### ANIMATIONS ###
+##################
+
+animations {
+    enabled = true
+
+    bezier = myBezier, 0.05, 0.8, 0.1, 1
+
+    animation = windows, 1, 6, myBezier
+    animation = windowsOut, 1, 7, default, popin 90%
+    animation = fade, 1, 7, default
+    animation = workspaces, 1, 6, default, slidevert
+}
+
+##########
+### DWINDLE ###
+##########
+
+dwindle {
+    pseudotile = true
+    preserve_split = true
+}
+
+#######
+### MASTER ###
+#######
+
+master {
+    new_status = master
+}
+
+######
+### MISC ###
+######
+
+misc {
+    force_default_wallpaper = -1
+    disable_hyprland_logo = true
+}
+
+#########
+### INPUT ###
+#########
+
+input {
+    kb_layout = us                            # override unixvibe recommendation
+    kb_variant = #colemak
+    kb_model =
+    kb_options =                              # override unixvibe recommendation
+    kb_rules =
+
+    follow_mouse = 1
+
+    sensitivity = 0.45
+    accel_profile = flat
+
+    touchpad {
+        natural_scroll = true                 # override unixvibe recommendation
+    }
+}
+
+############
+### GESTURES ###
+############
+
+gestures {
+    workspace_swipe = false                   # override unixvibe recommendation
+}
+
+###########
+### DEVICE ###
+###########
+
+device {
+    name = epic-mouse-v1
+    sensitivity = -0.5
+}
+
+#################################
+### WINDOWS AND WORKSPACES ###
+#################################
+
+windowrulev2 = suppressevent maximize, class:.* 
