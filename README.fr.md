@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/87f7336b-70a3-4b17-b965-eadc03a06529" width="50%" height="320" style="object-fit:cover;" alt="Unixvibe banner" />
+  <img src="https://github.com/user-attachments/assets/629c2d23-4319-4566-9973-784a6291093d" width="50%" height="320" style="object-fit:cover;" alt="Bannière Unixvibe" />
 </div>
 
 <div align="center">
   <img src="https://img.shields.io/github/last-commit/Litesav-L/unixvibe?style=for-the-badge&color=303030" />
-  <img src="https://img.shields.io/badge/APRIL-2025-88cc00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AUGUST-2025-8?style=for-the-badge" />
   <img src="https://img.shields.io/github/repo-size/Litesav-L/unixvibe?style=for-the-badge&cacheSeconds=30" />
   <img src="https://img.shields.io/badge/Linux-%23171717?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Arch-%23007ACC?style=for-the-badge&logo=arch-linux&logoColor=white" />
@@ -12,80 +12,103 @@
 </div>
 
 
-# Unixvibe 🎨
+# <img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/f5e1a1c7-7e95-4d8b-aba1-9e84b9e015e4" />Unixvibe
 
-**Couche d’interface dynamique — une nouvelle abstraction au‑dessus de l’environnement de bureau, permettant de contrôler l’environnement à plusieurs niveaux et de le transformer instantanément.**
+**Une couche d’interface dynamique — une nouvelle abstraction au‑dessus de l’environnement de bureau qui vous permet de contrôler l’environnement à plusieurs niveaux et de le transformer instantanément.**
 
-<img width="1682" height="1398" alt="image" src="https://github.com/user-attachments/assets/4cf0f645-6f5c-4db9-9ab8-2c8e3aef5bac" />
-
----
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6cce4101-8635-4d05-9522-dca663bcdffc" width="800" alt="image">
+</p>
 
 ## Installation 📦
 
-1. **Cloner le dépôt :**
+1. **Cloner le dépôt :**
 ```bash
 git clone https://github.com/Litesav-L/unixvibe.git
 cd unixvibe
 ```
-2. **Lancer le script d’installation :**
+2. **Exécuter le script d’installation :**
 ```bash
 ./install.sh
 ```
-**Dépendances :**  
-Toutes les dépendances requises sont installées automatiquement par le script `install.sh` — à savoir : **sww + yad + webkit2gtk**
+**Dépendances :**  
+Toutes les dépendances nécessaires sont installées automatiquement par le script `install.sh` — à savoir : **swww + yad + webkit2gtk**
 
-## Rices de départ adaptés (si le serveur est temporairement indisponible)
+## Rices de démarrage adaptés (si le serveur est temporairement indisponible)
 https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=sharing
 
-1. Télécharger l’archive via le lien ci‑dessus et l’extraire  
-2. Cliquer sur « + » dans la barre de boutons inférieure pour un import local  
-3. Aller dans le répertoire du rice dans le gestionnaire de fichiers → Ouvrir
+1. Téléchargez l’archive via le lien ci‑dessus et extrayez‑la
+2. Cliquez sur « + » dans la barre inférieure pour l’import local
+3. Accédez au répertoire du rice dans votre gestionnaire de fichiers → Ouvrir
 
 ---
 
 ## Fonctionnalités 💡
 
 1. **Changement de rice en un clic.**  
-   Permet de basculer entre les rices préinstallés de la liste. Le temps moyen d’application au clic est d’environ ~2 secondes et diminuera avec chaque nouvelle version.
+   Basculez entre les rices préinstallés de la liste. Le temps moyen d’application au clic est d’environ 2 secondes et diminuera à chaque nouvelle version.
 
 2. **Installer des rices depuis Internet / installation locale depuis le système de fichiers.**  
-   Import direct des rices via l’onglet en ligne.
+   Importez des rices directement via l’onglet en ligne.
 
 3. **Partage de rices.**  
-   Téléversement de vos propres rices (dotfiles) sur le serveur pour un accès public.
-4. **Possibilité d’éditer/supprimer le rice téléversé depuis l’interface graphique.**
-5. **Affichage du dépôt de configuration (rice) et des distributions prises en charge ; synchronisation git de base des informations principales.**
-6. **Gestion des configurations via l’interface graphique.**
-7. **Gestion des plugins via l’interface ; ajout de dépôts de plugins ; ajout de paramètres personnalisés au plugin ; prise en charge de différents types de paramètres (sélecteur de couleur, etc.).**
-8. **Correction des états temporaires problématiques des gestionnaires de fenêtres en mosaïque pris en charge.**
-9. **Sauvegarde et restauration des états de l’environnement externe.**
-10. **Vérification de la sécurité des scripts de rices avant exécution. Initialisation de règles de sécurité personnalisées.**
-11. **Isolation des dépendances des rices sur deux niveaux : standard + système de préfixes contrôlé (bêta). Si des symlinks sont détectés dans le script du rice, ils sont reconnus, les symlinks ont la priorité et le mécanisme standard est désactivé.**
+   Téléversez vos propres rices (dotfiles) sur le serveur pour un accès public.
+4. **Possibilité de modifier/supprimer le rice que vous avez téléversé depuis la GUI.**
+5. **Voir le dépôt de configuration (rice) et les distributions prises en charge ; synchronisation git de base des informations principales.**
+6. **Gérer les configurations via l’interface graphique (GUI).**
+7. **Gérer les plugins via la GUI ; ajouter des dépôts de plugins ; ajouter des paramètres personnalisés à un plugin ; prise en charge de différents types de paramètres (p. ex., sélecteur de couleur).**
+8. **Corriger les états temporaires problématiques des gestionnaires de fenêtres en tuiles pris en charge.**
+9. **Sauvegarder et restaurer les états de l’environnement externe.**
+10. **Vérification de sécurité des scripts de rice avant exécution. Initialisation de règles de sécurité personnalisées.**
+11. **Isolation à deux niveaux des dépendances du rice : standard + système de préfixes contrôlé (bêta). Si des liens symboliques sont trouvés dans un script de rice, ils sont reconnus, les liens symboliques ont la priorité et le mécanisme standard est désactivé.**
 
-12. **Configuration de l’animation de changement de rice (la dépendance `sww` est utilisée temporairement).**  
-   Possibilité de modifier les paramètres d’animation dans l’interface (type d’animation, FPS, durée, angle de l’onde).
+12. **Configurer l’animation de basculement de rice (utilise temporairement la dépendance `swww`).**  
+   Possibilité de modifier les paramètres d’animation dans la GUI (type d’animation, FPS, durée, angle d’onde).
 
-13. **Options supplémentaires :**  
-   - Application automatique du rice après le démarrage (optionnel)  
-   - Laisser ouverte ou fermer la fenêtre de la liste des rices après sélection (pratique pour parcourir rapidement plusieurs rices)  
+13. **Options supplémentaires :**  
+   - Application automatique d’un rice après le démarrage (optionnel)  
+   - Conserver ou fermer la fenêtre de la liste des rices après la sélection (utile pour parcourir rapidement plusieurs rices)  
    - Activer la journalisation du temps d’application/installation
 
-14. **Prise en charge multilingue :**  
-   4 langues prises en charge actuellement.
+14. **Prise en charge multilingue :**  
+   4 langues sont actuellement prises en charge.
 
 15. **Paramètres Unixvibe**  
-    - Changement du thème de l’interface,  
+    - Changer le thème de l’interface  
     - Contrôle sonore de base
 
----
 
-## Informations de référence 📚
+## Standard de rice 🎨
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/90b9d5df-c2b9-4b13-a732-fd7f924d805d" width="300">
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://github.com/user-attachments/assets/dd231164-f0c9-438e-b805-9fff8acfee8c" width="400"><br/>
+      <img src="https://github.com/user-attachments/assets/d8c71441-b2d0-494f-8ac7-8997869666f6" width="187">
+    </td>
+  </tr>
+</table>
 
-### Adapter un rice existant / en créer un nouveau 🎨
+La carte du rice est l’un des pop‑ups clés, qui s’enrichira à mesure que de nouvelles versions seront publiées.  
+À l’heure actuelle, un rice doit inclure :  
+- Aperçu (512x512, 1024x1024)
+- Un lien vers le dépôt  
+- L’auteur (l’avatar sera automatiquement extrait de Git)  
+- L’auteur de l’adaptation (optionnel)  
+- Des tags (optionnel)  
+- Une catégorie de fonctionnalité (optionnel, multiples autorisées)  
+- Des informations sur les distributions prises en charge (optionnel — si non spécifié, le programme générera la liste automatiquement à partir du script)  
 
-Dans les premières versions, le programme exigera temporairement de respecter la structure du rice :
+À l’avenir, la conversion automatique entre distributions et gestionnaires de fenêtres en tuiles sera également disponible ici, ainsi qu’un système de notation (plus de détails dans la feuille de route).
 
-Structure minimale acceptable
+
+## Adapter un rice existant / en créer un nouveau 🎨
+
+Dans les premières versions, le programme exigera temporairement le respect de la structure du rice :
+
+Structure minimale acceptable (si Hyprland ; pour d’autres gestionnaires en tuiles, la structure sera différente)
 ```text
 RICE_NAME/
 ├── preview.png
@@ -94,12 +117,12 @@ RICE_NAME/
 ├── hyprland/
 │   ├── unixvibe.conf
 └── start-scripts/
-    ├── install_theme_apps.sh (optionnel)
+    ├── install_theme_apps.sh (optional)
     └── set_after_install_actions.sh
-├── config/ (optionnel)
+├── config/ (optional)
 ```
 
-Structure complète recommandée du rice :
+La structure complète recommandée d’un rice devrait ressembler à ceci :
 ```text
 RICE_NAME/
 ├── preview.png
@@ -114,49 +137,49 @@ RICE_NAME/
 │   └── keybinds.conf
 │   ├── unixvibe.conf
 └── start-scripts/
-    ├── install_theme_apps.sh (optionnel)
+    ├── install_theme_apps.sh (optional)
     └── set_after_install_actions.sh
-├── config/ (optionnel)
+├── config/ (optional)
 ```
 
 `preview.png` — image affichée à l’utilisateur dans la liste des rices  
 `wallpaper.png` — fond d’écran par défaut
 
-`hyprland.conf` — contient des références aux fichiers de configuration pour Hyprland (paramètres directs sans liens possibles) ; les fichiers associés doivent se trouver dans `hyprland/`  
-`unixvibe.conf` — fichier de configuration du programme garantissant un contrôle cohérent lors du changement de rices, masquant les terminaux auxiliaires pendant l’opération et définissant les attributs de visibilité requis pour la fenêtre du programme
+`hyprland.conf` — contient des références aux fichiers de configuration pour Hyprland (des paramètres directs sans liens sont aussi possibles) ; les fichiers liés à cette configuration doivent être placés dans `hyprland/`  
+`unixvibe.conf` — fichier de configuration du programme qui garantit un contrôle cohérent lors du changement de rice, masque les terminaux auxiliaires pendant le basculement et définit les attributs de visibilité requis pour la fenêtre du programme
 
 `start-scripts/`  
-- `install_theme_apps.sh` — script d’installation des applications associées ; s’exécute uniquement lors de la première installation du rice  
-- `set_after_install_actions.sh` — script de lancement des applications associées ; s’exécute à chaque application du rice
+- `install_theme_apps.sh` — script qui installe les applications d’accompagnement ; s’exécute uniquement lors de la première installation d’un rice  
+- `set_after_install_actions.sh` — script qui lance les applications d’accompagnement ; s’exécute à chaque fois qu’un rice est appliqué
 
-`config/` — répertoire contenant les configurations des applications associées
+`config/` — répertoire contenant les fichiers de configuration des applications d’accompagnement
 
-Pour une compréhension rapide, vous pouvez consulter les rices préinstallés dans la section réseau de unixvibe ou l’archive distincte de rices — fondée sur la pratique répandue consistant à répartir la responsabilité sur les 7 fichiers indiqués avec des références dynamiques dans `hyperland.conf`.
-
----
-Dans les versions futures, il ne sera plus nécessaire de respecter une structure (vous pourrez importer n’importe quel ancien rice et il sera pris en charge), et les rices qui la respectent déjà conserveront la rétro‑compatibilité. Au fil des versions et de l’ouverture du code, la responsabilité se déplacera des scripts de rices vers le programme. Actuellement, unixvibe contient déjà beaucoup de logique pour un changement rapide de rices, des solutions à la volée pour les incompatibilités entre versions d’applications associées au rice, ainsi qu’une logique qui résout d’autres problèmes fréquemment rencontrés par les utilisateurs expérimentés. Les scripts des rices sont responsables de l’installation et du lancement des applications associées, offrant à l’utilisateur une compréhension et une transparence complètes de toutes les actions effectuées dans le système (et, si vous ne souhaitez pas les examiner, le programme détectera les commandes potentiellement dangereuses et n’autorisera pas l’exécution du script sans votre consentement).
+Pour une compréhension simple, vous pouvez consulter les rices prédéfinis dans la section réseau d’unixvibe ou l’ensemble de rices dans une archive séparée : il est basé sur la meilleure pratique populaire consistant à répartir la responsabilité entre les 7 fichiers indiqués avec des liens dynamiques dans `hyprland.conf`.
 
 ---
+Dans les versions futures, il ne sera plus nécessaire de respecter une structure de rice (vous pourrez importer n’importe quel ancien rice et il sera pris en charge), et les rices qui la respectent déjà conserveront la compatibilité rétroactive. Il est également prévu, au fil des versions et de l’ouverture du code du programme, de transférer la responsabilité des scripts de rice vers le programme lui‑même. Actuellement, unixvibe contient beaucoup de logique liée au changement rapide de rices, des solutions à la volée pour les incompatibilités entre versions d’applications accompagnant le rice, ainsi que de la logique qui résout d’autres problèmes souvent rencontrés par les utilisateurs expérimentés. Les scripts de rices sont responsables de l’installation de la liste des applications d’accompagnement et de leur lancement, afin d’offrir à l’utilisateur une compréhension complète et la transparence de toutes les actions effectuées sur le système (et si vous ne souhaitez pas les examiner, le programme déterminera lui‑même les commandes potentiellement dangereuses et n’autorisera pas l’exécution du script sans votre consentement).
+
+
 
 ## Feuille de route 🔮
 
-1. **Ajouter la possibilité de changer facilement de rices sur l’ensemble du flux PC (rices des écrans de démarrage GRUB, rEFInd, rices de l’écran de connexion).**
+1. **Ajouter la possibilité de basculer facilement les rices sur l’ensemble du flux PC (rices pour les écrans de démarrage GRUB, rEFInd, écran de connexion).**
 
-2. **Prise en charge d’autres gestionnaires de fenêtres populaires (gestion des rices, des configurations et des plugins).**
+2. **Prise en charge d’autres gestionnaires de fenêtres populaires (gestion des rices, configurations, plugins).**
 
-3. **Possibilité de conversion/mappage des rices entre différents gestionnaires de fenêtres (module de système de paramètres équivalents), conversion des paquets d’installation et d’application entre différentes distributions.**
+3. **Possibilité de convertir/faire correspondre des rices entre différents gestionnaires de fenêtres (module de système de paramètres équivalents), convertir les paquets d’installation et d’application entre différentes distributions.**
 
-4. **Mécanisme de compatibilité ascendante pour les anciens rices et ceux qui le deviendront (module de système de paramètres équivalents).**
+4. **Mécanisme pour prendre en charge la compatibilité rétroactive des anciens rices et de ceux qui deviendront anciens (module de système de paramètres équivalents).**
 
-5. **Intégration d’un système de notation pour les rices en lisant/misant à jour des API externes (reddit, git) + éventuel système interne de notation et de motivation des auteurs.**
+5. **Intégrer des évaluations de rices en lisant et en mettant à jour des API externes (reddit, git) + un éventuel système interne de notation et de motivation des auteurs.**
 
-6. **Améliorations générales du programme : glisser‑déposer sur les éléments du thème, regroupement et filtrage des rices par tags, pagination des éléments réseau, etc.**
+6. **Améliorations générales du programme : glisser‑déposer sur les éléments de thème, regroupement et filtrage des rices par tags, pagination des éléments réseau, etc.**
 
-7. **Fonctionnalités expérimentales pour valider l’utilité pratique des rices : application selon le mode de travail courant, application selon le contexte de la fenêtre sélectionnée.**
+7. **Fonctionnalités expérimentales pour valider l’utilité pratique des rices : appliquer selon le mode de travail actuel, appliquer selon le contexte de la fenêtre sélectionnée.**
 
-8. **Génération d’environnements/rices par IA — un module important permettant de générer l’environnement à partir de prompts ou du contexte des actions.**
+8. **Génération d’environnements/rices par IA — un grand module qui permet de générer l’environnement à partir de prompts ou du contexte des actions.**
 
-**Est également envisagée l’ouverture complète du code dans un avenir proche et l’acceptation de contributions via git.**
+**J’envisage également d’ouvrir entièrement le code prochainement et d’être prêt à accepter des modifications dans git.**
 
 ---
-✅ Testé sur Hyprland + AGS, Arch
+✅ Testé sur Hyprland + Arch

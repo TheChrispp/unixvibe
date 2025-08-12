@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/87f7336b-70a3-4b17-b965-eadc03a06529" width="50%" height="320" style="object-fit:cover;" alt="Unixvibe banner" />
+  <img src="https://github.com/user-attachments/assets/629c2d23-4319-4566-9973-784a6291093d" width="50%" height="320" style="object-fit:cover;" alt="Unixvibe banner" />
 </div>
 
 <div align="center">
   <img src="https://img.shields.io/github/last-commit/Litesav-L/unixvibe?style=for-the-badge&color=303030" />
-  <img src="https://img.shields.io/badge/APRIL-2025-88cc00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AUGUST-2025-8?style=for-the-badge" />
   <img src="https://img.shields.io/github/repo-size/Litesav-L/unixvibe?style=for-the-badge&cacheSeconds=30" />
   <img src="https://img.shields.io/badge/Linux-%23171717?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Arch-%23007ACC?style=for-the-badge&logo=arch-linux&logoColor=white" />
@@ -12,13 +12,14 @@
 </div>
 
 
-# Unixvibe 🎨
+# <img width="64" height="64" alt="icon" src="https://github.com/user-attachments/assets/f5e1a1c7-7e95-4d8b-aba1-9e84b9e015e4" />Unixvibe
+
 
 **A dynamic interface layer — a new abstraction above the desktop environment that lets you control the environment at multiple levels and transform it instantly.**
 
-<img width="1682" height="1398" alt="image" src="https://github.com/user-attachments/assets/4cf0f645-6f5c-4db9-9ab8-2c8e3aef5bac" />
-
----
+<p align="center">
+<img src="https://github.com/user-attachments/assets/6cce4101-8635-4d05-9522-dca663bcdffc" width="800" alt="image">
+</p>
 
 ## Installation 📦
 
@@ -32,7 +33,7 @@ cd unixvibe
 ./install.sh
 ```
 **Dependencies:**  
-All required dependencies are installed automatically by the `install.sh` script — namely: **sww + yad + webkit2gtk**
+All required dependencies are installed automatically by the `install.sh` script — namely: **swww + yad + webkit2gtk**
 
 ## Starter adapted rices (if the server is temporarily unavailable)
 https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=sharing
@@ -62,7 +63,7 @@ https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=shari
 10. **Security check of rice scripts before execution. Initialization of custom security rules.**
 11. **Two‑level isolation of rice dependencies: standard + controlled prefix system (beta). If symlinks are found in a rice script, they are recognized, symlinks get priority, and the standard mechanism is disabled.**
 
-12. **Configure the rice‑switch animation (temporarily uses the `sww` dependency).**  
+12. **Configure the rice‑switch animation (temporarily uses the `swww` dependency).**  
    Ability to change animation parameters in the GUI (animation type, FPS, duration, wave angle).
 
 13. **Additional options:**  
@@ -77,15 +78,38 @@ https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=shari
     - Switch the interface theme,  
     - Basic sound control
 
----
 
-## Reference 📚
+## Rice standard 🎨
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/90b9d5df-c2b9-4b13-a732-fd7f924d805d" width="300">
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://github.com/user-attachments/assets/dd231164-f0c9-438e-b805-9fff8acfee8c" width="400"><br/>
+      <img src="https://github.com/user-attachments/assets/d8c71441-b2d0-494f-8ac7-8997869666f6" width="187">
+    </td>
+  </tr>
+</table>
 
-### Adapting an existing rice / creating a new one 🎨
+The rice card is one of the key pop-ups, which will expand as new versions are released.  
+At the moment, a rice should include:  
+- Preview (512x512, 1024x1024)
+- A link to the repository  
+- The author (avatar will be automatically parsed from Git)  
+- The adaptation author (optional)  
+- Tags (optional)  
+- A functionality category (optional, multiple allowed)  
+- Information about supported distributions (optional — if not specified, the program will generate the list automatically based on the script)  
+
+In the future, automatic conversion between distributions and tiling window managers will also be available here, along with a rating system (more details in the roadmap).
+
+
+## Adapting an existing rice / creating a new one 🎨
 
 In the first versions, the program will temporarily require adherence to the rice structure:
 
-Minimal acceptable structure
+Minimal acceptable structure (if hyprland, for other tiling managers the structure will be different)
 ```text
 RICE_NAME/
 ├── preview.png
@@ -131,12 +155,12 @@ RICE_NAME/
 
 `config/` — directory with configuration files of accompanying applications
 
-For simple understanding, you can look at the preset rices in the unixvibe network section or the set of rices in a separate archive — it is based on the best and popular practice of distributing responsibility across the 7 specified files with dynamic links in `hyperland.conf`.
+For simple understanding, you can look at the preset rices in the unixvibe network section or the set of rices in a separate archive — it is based on the best and popular practice of distributing responsibility across the 7 specified files with dynamic links in `hyprland.conf`.
 
 ---
 In future versions there will be no need to follow a rice structure (you will be able to import any old rice and it will be supported), and rices where this is already followed will maintain backward compatibility. It is also planned, as new versions are released and the program code is opened, to shift responsibility from rice scripts toward the program itself. Currently, unixvibe contains a lot of logic related to fast rice switching, on‑the‑fly solutions for incompatibilities between individual versions of applications accompanying the rice, as well as logic that solves other issues often encountered by experienced users. Rice scripts are responsible for installing the list of accompanying applications and launching them, to provide the user with full understanding and transparency of all actions performed in the system (and if you don’t feel like reviewing them, the program itself will determine potentially dangerous commands and will not allow the script to run without the user’s consent).
 
----
+
 
 ## Roadmap 🔮
 
@@ -159,4 +183,4 @@ In future versions there will be no need to follow a rice structure (you will be
 **Also considering fully open‑sourcing the code in the near future and being ready to accept changes in git.**
 
 ---
-✅ Tested on Hyprland + AGS, Arch
+✅ Tested on Hyprland + Arch
