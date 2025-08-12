@@ -21,7 +21,7 @@
 <img src="https://github.com/user-attachments/assets/6cce4101-8635-4d05-9522-dca663bcdffc" width="800" alt="image">
 </p>
 
-## Installation 📦
+## Installation 📦 (<span style="color:red">The program files, including the installer, will be added in 2–3 hours — I’m waiting for the VPS hosting server to come online to enable rice sharing.</span>)
 
 1. **Clone the repository:**
 ```bash
