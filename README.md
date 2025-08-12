@@ -186,6 +186,9 @@ In future versions there will be no need to follow a rice structure (you will be
 
 **Feedback: unixvibefb@gmail.com**
 
+
+The application also collects basic analytics (user-by-country statistics, etc.) using Firebase Analytics. By installing it, you agree to this; I’ll add it to install.sh later.
+
 ----
 *borrowing resources*:
 distro-icons: https://www.reddit.com/r/linux/comments/nt1tm9/i_made_a_uniform_icon_set_of_linux_distribution/
