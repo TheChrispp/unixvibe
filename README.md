@@ -4,7 +4,7 @@
 
 <div align="center">
   <img src="https://img.shields.io/github/last-commit/Litesav-L/unixvibe?style=for-the-badge&color=303030" />
-  <img src="https://img.shields.io/badge/APRIL-2025-88cc00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/AUGUST-2025-88cc00?style=for-the-badge" />
   <img src="https://img.shields.io/github/repo-size/Litesav-L/unixvibe?style=for-the-badge&cacheSeconds=30" />
   <img src="https://img.shields.io/badge/Linux-%23171717?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Arch-%23007ACC?style=for-the-badge&logo=arch-linux&logoColor=white" />
