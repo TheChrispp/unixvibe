@@ -84,7 +84,7 @@ https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=shari
 
 In the first versions, the program will temporarily require adherence to the rice structure:
 
-Minimal acceptable structure
+Minimal acceptable structure (if hyprland, for other tiling managers the structure will be different)
 ```text
 RICE_NAME/
 ├── preview.png
@@ -136,6 +136,32 @@ For simple understanding, you can look at the preset rices in the unixvibe netwo
 In future versions there will be no need to follow a rice structure (you will be able to import any old rice and it will be supported), and rices where this is already followed will maintain backward compatibility. It is also planned, as new versions are released and the program code is opened, to shift responsibility from rice scripts toward the program itself. Currently, unixvibe contains a lot of logic related to fast rice switching, on‑the‑fly solutions for incompatibilities between individual versions of applications accompanying the rice, as well as logic that solves other issues often encountered by experienced users. Rice scripts are responsible for installing the list of accompanying applications and launching them, to provide the user with full understanding and transparency of all actions performed in the system (and if you don’t feel like reviewing them, the program itself will determine potentially dangerous commands and will not allow the script to run without the user’s consent).
 
 ---
+## Rice standard 🎨
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d80358a4-0811-45de-892d-801e92648337" width="347">
+    </td>
+    <td align="center" valign="middle">
+      <img src="https://github.com/user-attachments/assets/dd231164-f0c9-438e-b805-9fff8acfee8c" width="440"><br/>
+      <img src="https://github.com/user-attachments/assets/d8c71441-b2d0-494f-8ac7-8997869666f6" width="187">
+    </td>
+  </tr>
+</table>
+
+The rice card is one of the key pop-ups, which will expand as new versions are released.  
+At the moment, a rice should include:  
+
+- A link to the repository  
+- The author (avatar will be automatically parsed from Git)  
+- The adaptation author (optional)  
+- Tags (optional)  
+- A functionality category (optional, multiple allowed)  
+- Information about supported distributions (optional — if not specified, the program will generate the list automatically based on the script)  
+
+In the future, automatic conversion between distributions and tiling window managers will also be available here, along with a rating system (more details in the roadmap).
+
+
 
 ## Roadmap 🔮
 
