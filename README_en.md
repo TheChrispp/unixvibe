@@ -32,7 +32,7 @@ cd unixvibe
 ./install.sh
 ```
 **Dependencies:**  
-All required dependencies are installed automatically by the `install.sh` script — namely: **swww + yad + webkit2gtk**
+All required dependencies are installed automatically by the `install.sh` script — namely: **sww + yad + webkit2gtk**
 
 ## Starter adapted rices (if the server is temporarily unavailable)
 https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=sharing
@@ -62,7 +62,7 @@ https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=shari
 10. **Security check of rice scripts before execution. Initialization of custom security rules.**
 11. **Two‑level isolation of rice dependencies: standard + controlled prefix system (beta). If symlinks are found in a rice script, they are recognized, symlinks get priority, and the standard mechanism is disabled.**
 
-12. **Configure the rice‑switch animation (temporarily uses the `swww` dependency).**  
+12. **Configure the rice‑switch animation (temporarily uses the `sww` dependency).**  
    Ability to change animation parameters in the GUI (animation type, FPS, duration, wave angle).
 
 13. **Additional options:**  
@@ -79,8 +79,9 @@ https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=shari
 
 ---
 
+## Reference 📚
 
-## Adapting an existing rice / creating a new one 🎨
+### Adapting an existing rice / creating a new one 🎨
 
 In the first versions, the program will temporarily require adherence to the rice structure:
 
@@ -130,7 +131,7 @@ RICE_NAME/
 
 `config/` — directory with configuration files of accompanying applications
 
-For simple understanding, you can look at the preset rices in the unixvibe network section or the set of rices in a separate archive — it is based on the best and popular practice of distributing responsibility across the 7 specified files with dynamic links in `hyprland.conf`.
+For simple understanding, you can look at the preset rices in the unixvibe network section or the set of rices in a separate archive — it is based on the best and popular practice of distributing responsibility across the 7 specified files with dynamic links in `hyperland.conf`.
 
 ---
 In future versions there will be no need to follow a rice structure (you will be able to import any old rice and it will be supported), and rices where this is already followed will maintain backward compatibility. It is also planned, as new versions are released and the program code is opened, to shift responsibility from rice scripts toward the program itself. Currently, unixvibe contains a lot of logic related to fast rice switching, on‑the‑fly solutions for incompatibilities between individual versions of applications accompanying the rice, as well as logic that solves other issues often encountered by experienced users. Rice scripts are responsible for installing the list of accompanying applications and launching them, to provide the user with full understanding and transparency of all actions performed in the system (and if you don’t feel like reviewing them, the program itself will determine potentially dangerous commands and will not allow the script to run without the user’s consent).
@@ -158,4 +159,4 @@ In future versions there will be no need to follow a rice structure (you will be
 **Also considering fully open‑sourcing the code in the near future and being ready to accept changes in git.**
 
 ---
-✅ Tested on Hyprland + Arch
+✅ Tested on Hyprland + AGS, Arch
