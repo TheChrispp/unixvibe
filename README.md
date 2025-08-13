@@ -1,6 +1,6 @@
 
 The link to reddit is unavailable. I am currently working with the moderators to find out why the post was deleted.
----
+
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/629c2d23-4319-4566-9973-784a6291093d" width="50%" height="320" style="object-fit:cover;" alt="Unixvibe banner" />
