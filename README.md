@@ -1,5 +1,4 @@
-
-The link to reddit is unavailable. I am currently working with the moderators to find out why the post was deleted.
+[The link to reddit is unavailable. I am currently working with the moderators to find out why the post was deleted.]
 
 
 <div align="center">
