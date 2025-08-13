@@ -1,6 +1,3 @@
-[Reddit post is unavailable. According to the moderators, even minimally obfuscated code forces them to take precautions, despite any arguments. The next post will be published when I finish the main part of the project and prepare all the open source code]
-
-
 <div align="center">
   <img src="https://github.com/user-attachments/assets/629c2d23-4319-4566-9973-784a6291093d" width="50%" height="320" style="object-fit:cover;" alt="Unixvibe banner" />
 </div>
