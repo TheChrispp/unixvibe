@@ -1,4 +1,4 @@
-[The link to reddit is unavailable. I am currently working with the moderators to find out why the post was deleted.]
+[Reddit post is unavailable. According to the moderators, even minimally obfuscated code forces them to take precautions, despite any arguments. The next post will be published when I finish the main part of the project and prepare all the open source code]
 
 
 <div align="center">
