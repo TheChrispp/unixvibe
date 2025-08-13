@@ -24,26 +24,8 @@
 <img src="https://github.com/user-attachments/assets/6cce4101-8635-4d05-9522-dca663bcdffc" width="800" alt="image">
 </p>
 
-## Installation 📦 
-1. **Clone the repository:**
-```bash
-git clone https://github.com/Litesav-L/unixvibe.git
-cd unixvibe
-```
-2. **Run the installer script:**
-```bash
-./install.sh
-```
-**Dependencies:**  
-All required dependencies are installed automatically by the `install.sh` script — namely: **swww + yad + webkit2gtk**
-
-## Starter adapted rices (if the server is temporarily unavailable)
-https://drive.google.com/file/d/1OEnQnXGsMM4Hn7oMiFKOpse70jhFeQdT/view?usp=sharing
-
-1. Download the archive via the link above and extract it
-2. Click “+” on the bottom button bar for local import
-3. Navigate to the rice directory in your file manager → Open
-
+---
+The full open-source code—with transparent analytics and a license—will be published soon. I’m removing the obfuscated JS files. 
 ---
 
 ## Features 💡
