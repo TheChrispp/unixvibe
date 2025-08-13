@@ -22,8 +22,8 @@
 </p>
 
 ---
-The full open-source code—with transparent analytics and a license—will be published soon. I’m removing the obfuscated JS files. 
----
+The full open-source code—with transparent analytics and a license—will be published soon. I’m removing the obfuscated JS files (Upon request, I can provide it for deobfuscation) 
+
 
 ## Features 💡
 
